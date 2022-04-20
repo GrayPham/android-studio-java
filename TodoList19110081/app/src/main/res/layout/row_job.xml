@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="10"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+
+        android:layout_weight="9"
+        android:id="@+id/textviewNameJob"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Job Name"
+        android:textColor="#21211f"
+        android:textSize="22sp"
+        />
+
+    <ImageView
+        android:id="@+id/imageviewDelete"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="4dp"
+        android:layout_weight="0.5"
+        android:src="@drawable/delete"
+        android:padding="2dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageviewEdit"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="0.5"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/edit"
+        android:padding="2dp"
+        />
+</LinearLayout>
